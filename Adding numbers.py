@@ -12,4 +12,4 @@ def calculate_addition2(num_2):
 question = int(input("Enter first number: "))
 question1 = int(input("Enter first number: "))
 answer = calculate_addition(question + question1)
-print()
+print(f" {question} + {question1} = {answer}")
