@@ -10,6 +10,6 @@ def calculate_addition2(num_2):
 
 # Main
 question = int(input("Enter first number: "))
-question1 = int(input("Enter first number: "))
+question1 = int(input("Enter second number: "))
 answer = calculate_addition(question + question1)
 print(f" {question} + {question1} = {answer}")
