@@ -14,7 +14,7 @@ def main_routine():
 
     ticket_wanted = input("Do you want to sel a ticket? (Y/N): ").upper()
     while ticket_wanted != "N":
-        ticket = sell_ticket()
+        ticket = sell_tickets()
 
         # Get the number of tickets wanted in the category chosen
         num_tickets = int(input("How many of these tickets do you want: "))
